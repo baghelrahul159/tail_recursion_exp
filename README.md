@@ -108,6 +108,24 @@ PASS
 
 Plotting the above values using matlib library from python
 
-![Benchmarking Plot](https://github.com/baghelrahul159/tail_recursion_exp/blob/master/benchmark/plot.png)
+![Benchmarking Plot](https://github.com/baghelrahul159/tail_recursion_exp/blob/master/images/plot.png)
 
 This illustrates the fact that memoization greatly improves the speed at the cost of more memory. However interesting to note here is that Tail recursion and Iterative method are very close to each other. 
+
+Here's the flamegraphs for Heap profling:-
+
+1. Recursion without memoization
+
+![Heap Profile Non Tail Recursion](https://github.com/baghelrahul159/tail_recursion_exp/blob/master/images/non-tail-recursion.png)
+
+2. Recursion with Memoization
+
+![Heap Profile Recursion with memoization](https://github.com/baghelrahul159/tail_recursion_exp/blob/master/images/recursion_memoization.png)
+
+3. Tail Recursion
+
+![Heap Profile Tail Recursion](https://github.com/baghelrahul159/tail_recursion_exp/blob/master/images/tail_recursion.png)
+
+4. Iterative
+
+![Heap Profile Iterative](https://github.com/baghelrahul159/tail_recursion_exp/blob/master/images/iterative.png)
