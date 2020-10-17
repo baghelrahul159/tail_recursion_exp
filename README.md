@@ -107,7 +107,7 @@ BenchmarkFib3000-4   	  611624	      3048 ns/op
 PASS
 ```
 
-Plotting the above values using matlib library from python
+Plotting the above values using matplotlib library from python
 
 ![Benchmarking Plot](https://github.com/baghelrahul159/tail_recursion_exp/blob/master/images/plot.png)
 
