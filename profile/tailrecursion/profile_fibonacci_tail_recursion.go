@@ -16,7 +16,7 @@ func main() {
 	wg.Add(1)
 
 	//logic starts
-	var n uint64 = 1000000
+	var n uint64 = 10000000
 	log.Println(recurse(n, 0, 1))
 
 	wg.Wait()

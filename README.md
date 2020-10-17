@@ -2,7 +2,7 @@
 
 This repository is an attempt to `benchmark` & `profile` different ways for listing `n-th Fibonacci number` using `Golang` as programming language.
 
-There are 4 candidates for caculating n-th fibonacci number.
+These are 4 candidates for caculating n-th fibonacci number that we have considered.
 1. Iterative method.
 2. Recursie method without using memoization.
 3. Recursive method using memoization for optimization.
@@ -112,7 +112,7 @@ Plotting the above values using matlib library from python
 
 This illustrates the fact that memoization greatly improves the speed at the cost of more memory. However interesting to note here is that Tail recursion and Iterative method are very close to each other. 
 
-Here's the flamegraphs for Heap profling:-
+### Flamegraphs for # Heap profling
 
 1. Recursion without memoization
 
@@ -129,3 +129,23 @@ Here's the flamegraphs for Heap profling:-
 4. Iterative
 
 ![Heap Profile Iterative](https://github.com/baghelrahul159/tail_recursion_exp/blob/master/images/iterative.png)
+
+`Apart from memoization technique which uses almost 30 MB, rest all methods are using few KB.`
+
+### Flamegraphs for # CPU profling
+
+1. Recursion without memoization
+
+![CPU Profile Non Tail Recursion](https://github.com/baghelrahul159/tail_recursion_exp/blob/master/images/non-tail-recursion-cpu.png)
+
+2. Recursion with Memoization
+
+![CPU Profile Recursion with memoization](https://github.com/baghelrahul159/tail_recursion_exp/blob/master/images/recursion_memoization-cpu.png)
+
+3. Tail Recursion
+
+![CPU Profile Tail Recursion](https://github.com/baghelrahul159/tail_recursion_exp/blob/master/images/tail_recursion-cpu.png)
+
+4. Iterative
+
+![CPU Profile Iterative](https://github.com/baghelrahul159/tail_recursion_exp/blob/master/images/iterative-cpu.png)
