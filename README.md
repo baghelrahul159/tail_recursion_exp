@@ -108,6 +108,6 @@ PASS
 
 Plotting the above values using matlib library from python
 
-![alt text](https://github.com/baghelrahul159/tail_recursion_exp/blob/master/plot.png?raw=true)
+![Benchmarking Plot](https://github.com/baghelrahul159/tail_recursion_exp/blob/master/benchmark/plot.png)
 
 This illustrates the fact that memoization greatly improves the speed at the cost of more memory. However interesting to note here is that Tail recursion and Iterative method are very close to each other. 
