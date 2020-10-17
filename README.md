@@ -130,7 +130,7 @@ This illustrates the fact that memoization greatly improves the speed at the cos
 
 ![Heap Profile Iterative](https://github.com/baghelrahul159/tail_recursion_exp/blob/master/images/iterative.png)
 
-`*Apart from memoization technique which uses almost 30 MB, rest all methods are using few KB.*`
+`Apart from memoization technique which uses almost 30 MB, rest all methods are using few KB.`
 
 ### Flamegraphs for CPU profling
 
@@ -150,4 +150,4 @@ This illustrates the fact that memoization greatly improves the speed at the cos
 
 ![CPU Profile Iterative](https://github.com/baghelrahul159/tail_recursion_exp/blob/master/images/iterative-cpu.png)
 
-`*Without memoization recursion takes almost 18s which is reduced to 160ms with memoization, tail recursion and iterative function takes almost same amount of cpu time.*`
+`Without memoization recursion takes almost 18s which is reduced to 160ms with memoization, tail recursion and iterative function takes almost same amount of cpu time.`
